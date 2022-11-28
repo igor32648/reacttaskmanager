@@ -3,7 +3,7 @@ import App from "../../App";
 
 class Button extends React.Component {
   render() {
-    return <button>Botão</button>;
+    return <button>Hello World</button>;
   }
 }
 
