@@ -1,4 +1,4 @@
-import { Button } from "../Button/Button";
+import Button from "../Button/Button";
 import Counter from "./Counter/Counter";
 import style from "./Timer.module.scss"
 
@@ -11,7 +11,9 @@ export default function Timer() {
       <div className={style.counterWrapper}>
         <Counter />
       </div>
-      <Button>Start</Button>
+      <Button>
+        Start
+        </Button>
     </div>
   );
 }
